@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "temp"
+version = "0.1.0"
+description = ""
+authors = ["robsonavr <robsonavr@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+lxml = "^5.2.2"
+openpyxl = "^3.1.5"
+playwright = "^1.45.0"
+bs4 = "^0.0.2"
+pdmemedit = "^0.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
